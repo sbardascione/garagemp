@@ -8,7 +8,7 @@
         <!-- Display Validation Errors -->
         @include('common.errors')
         <!-- New Task Form -->
-        <form action="/task" method="POST" class="form-horizontal">
+        <form action="#" class="form-horizontal">
             {{ csrf_field() }}
 
             <!-- Task Name -->
@@ -17,9 +17,33 @@
 
                 <div class="col-sm-2">
                     {!!Form::select('category',$data['categories'],$data['selected_category'],['class' => 'form-control'])!!}
-                </div>                              
+                </div> 
             </div>
 
+            <div class="form-group">   
+                <label for="brand" class="col-sm-3 control-label">Brand</label>
+
+                <div class="col-sm-2">
+                    {!!$data['brands']!!}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="model" class="col-sm-3 control-label">Model</label>
+
+                <div class="col-sm-2">
+                    
+                </div> 
+            </div>
+
+            <div class="form-group">
+                <label for="engine" class="col-sm-3 control-label">Motorizzazione</label>
+                
+                <div class="col-sm-2">
+                    
+                </div>
+            </div>
+            
             <!-- Add Task Button --> 
             <div class="form-group">
                 <div class="col-sm-offset-3 col-sm-6">

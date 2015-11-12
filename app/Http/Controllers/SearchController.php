@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Form;
 use App;
 
 class SearchController extends Controller
@@ -21,15 +22,33 @@ class SearchController extends Controller
      */
     public function index($name)
     {
-        $categories = App\category::lists('name','id');
-        //echo $categories;
+        $categories = [''=>''] + App\category::lists('name','id')->all();
+
         $category = App\category::where('name', $name)->lists('id');
                
         $data = array();
 
-        $data['categories'] = $categories;//$categories_options;
-        $data['selected_category'] = $category[0];
+        //array_unshift($categories, "scegli la categoria"); 
 
+        $data['categories'] = $categories;//$categories_options;
+
+
+        if(isset($category[0]) && !empty($category[0]) && $category[0]!=0)
+        {
+            $brandsSelected = App\brand::where('category_id',$category[0])->lists('name','id');
+            $brands = Form::select('brand',$brandsSelected,
+                null,
+                ['class' => 'form-control']);
+            
+            $data['selected_category'] = $category[0];
+
+        }else{
+            $brands = "<select class = \"form-control\"></select>";
+            $data['selected_category'] = null;
+        }
+
+        $data['brands'] = $brands;
+        
 
         return view('search',compact(array('data',$data)));
     }

@@ -20,7 +20,12 @@ Route::get('/', function () {
  * Display Search Page
  */
 Route::get('/search', function () {
-    return view('search');
+	$categories = [''=>''] +  App\category::lists('name','id')->all();
+	$data = array();
+	$data['categories'] = $categories;
+	$data['selected_category'] = '';
+	$data['brands'] = "<select class = \"form-control\"></select>";
+    return view('search',compact(array('data',$data)));
 });
 
 Route::get('/search/{name}', 'SearchController@index');

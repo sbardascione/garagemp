@@ -1,0 +1,423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"array_un",
+				"array_unshift"
+			],
+			[
+				"catego",
+				"categories_options"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"FONT",
+				"font-size"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/SearchController.php",
+			"settings":
+			{
+				"buffer_size": 3157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "garagemp.sublime-project",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/search.blade.php",
+			"settings":
+			{
+				"buffer_size": 1818,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Preferences: Package Control Settings – Default"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/carmelo/Sites/garagemp"
+	],
+	"file_history":
+	[
+		"/home/carmelo/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/carmelo/Sites/garagemp/vendor/laravelcollective/html/src/FormBuilder.php",
+		"/home/carmelo/Sites/garagemp/vendor/laravelcollective/html/src/HtmlServiceProvider.php",
+		"/home/carmelo/Sites/garagemp/vendor/laravelcollective/html/src/helpers.php",
+		"/home/carmelo/Sites/garagemp/vendor/laravelcollective/html/src/FormFacade.php",
+		"/home/carmelo/Sites/garagemp/storage/framework/views/f008fee30e9f64bd864057a6851d00b0",
+		"/home/carmelo/Sites/garagemp/storage/framework/views/4d2dc7aa2d1dc04773eea70903a826bc",
+		"/home/carmelo/Sites/garagemp/storage/framework/views/a0acdc1841824ff5052827ec26012c58",
+		"/home/carmelo/Sites/garagemp/storage/framework/views/9cc97d35fc58a2cb505feb74bafbed17_old",
+		"/home/carmelo/Sites/garagemp/storage/framework/sessions/05a37636be918cc5d4f4b2fbfdc49f62cc23acd8",
+		"/home/carmelo/Sites/garagemp/storage/framework/sessions/fb9161fdc28e24c9263480742379d7fba91c7c2b",
+		"/home/carmelo/Sites/garagemp/database/migrations/2015_11_09_204412_create_engine_table.php",
+		"/home/carmelo/Sites/garagemp/database/migrations/2015_11_09_204912_create_data_sheet_table.php",
+		"/home/carmelo/Sites/garagemp/app/category.php",
+		"/home/carmelo/Sites/garagemp/app/model.php",
+		"/home/carmelo/Sites/garagemp/database/migrations/2015_11_04_201127_create_models_table.php",
+		"/home/carmelo/Sites/garagemp/composer.json",
+		"/home/carmelo/Sites/garagemp/config/app.php",
+		"/home/carmelo/Sites/garagemp/app/Category.php",
+		"/home/carmelo/Sites/garagemp/app/Http/Controllers/SearchController.php",
+		"/home/carmelo/Sites/garagemp/app/brand.php",
+		"/home/carmelo/Sites/garagemp/app/Http/Requests/Request.php",
+		"/home/carmelo/Sites/garagemp/storage/logs/laravel.log",
+		"/home/carmelo/Sites/garagemp/database/migrations/2015_10_28_184519_create_category_table.php",
+		"/home/carmelo/Sites/garagemp/database/migrations/2015_11_04_194327_create_brands_table.php",
+		"/home/carmelo/Sites/garagemp/resources/views/common/errors.blade.php",
+		"/home/carmelo/Sites/garagemp/resources/views/search.blade.php",
+		"/home/carmelo/Sites/garagemp/resources/views/welcome.blade.php",
+		"/home/carmelo/Sites/garagemp/app/Http/routes.php",
+		"/home/carmelo/Sites/garagemp/resources/views/layout/app.blade.php",
+		"/home/carmelo/Sites/garagemp/public/css/garagemp.css",
+		"/home/carmelo/Sites/garagemp/artisan",
+		"/home/carmelo/Sites/LonelyCoffee/index.php",
+		"/home/carmelo/Sites/garagemp/bootstrap/autoload.php",
+		"/home/carmelo/Sites/garagemp/vendor/autoload.php",
+		"/home/carmelo/Sites/garagemp/.env",
+		"/home/carmelo/Sites/garagemp/config/database.php",
+		"/etc/apache2/sites-available/000-default.conf",
+		"/home/carmelo/Sites/LonelyCoffee/home.php",
+		"/home/carmelo/Sites/LonelyCoffee/css/lonelycoffee.css",
+		"/home/carmelo/Sites/LonelyCoffee/chisiamo.php",
+		"/home/carmelo/Sites/LonelyCoffee/contatti.php",
+		"/home/carmelo/Sites/LonelyCoffee/media.php",
+		"/home/carmelo/Sites/LonelyCoffee/.htaccess",
+		"/home/carmelo/Scaricati/sitemap.xml",
+		"/home/carmelo/Documenti/Salamone Angelo Rosario",
+		"/etc/apache2/sites-enabled/PHPMVCTest.conf",
+		"/var/log/apache2/error.log",
+		"/home/carmelo/Sites/LonelyCoffee/mod_rewrite.php",
+		"/etc/apache2/apache2.conf",
+		"/home/carmelo/LonelyCoffeeFTP/LonelyCoffee/css/lonelycoffee.css",
+		"/home/carmelo/Sites/LonelyCoffee/startbootstrap-bare-1.0.3/index.html",
+		"/home/carmelo/Sites/LonelyCoffee/lonelycoffee.php",
+		"/home/carmelo/LonelyCoffeeFTP/access.cnf",
+		"/home/carmelo/LonelyCoffeeFTP/lonelycoffee.it-bytes_log",
+		"/home/carmelo/Sites/LonelyCoffee/css/bootstrap.css",
+		"/home/carmelo/Sites/Zunyk/controllers/admin/AdminLoginController.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/carmelo/Sites/garagemp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"homestead",
+			"homestad",
+			";\n",
+			"display"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								661,
+								661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Controllers/SearchController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1089,
+								1089
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "garagemp.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/search.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								868,
+								868
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 129.0,
+						"translation.y": 68.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "garagemp.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
