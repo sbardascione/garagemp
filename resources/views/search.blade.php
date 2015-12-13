@@ -32,7 +32,9 @@
                 <label for="model" class="col-sm-3 control-label">Model</label>
 
                 <div class="col-sm-2">
-                    
+                    <select class="form-control" name="car_model">
+
+                    </select>
                 </div> 
             </div>
 
@@ -40,7 +42,9 @@
                 <label for="engine" class="col-sm-3 control-label">Motorizzazione</label>
                 
                 <div class="col-sm-2">
-                    
+                    <select class="form-control" name="engine">
+
+                    </select>
                 </div>
             </div>
             

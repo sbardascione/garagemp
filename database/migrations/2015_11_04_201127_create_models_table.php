@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateModelsTable extends Migration
+class CreateCar_ModelsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,7 @@ class CreateModelsTable extends Migration
      */
     public function up()
     {
-        Schema::create('models', function (Blueprint $table) {
+        Schema::create('car_models', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('brand_id')->length(10)->unsigned();
             $table->foreign('brand_id')->references('id')->on('brands');
@@ -28,6 +28,6 @@ class CreateModelsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('models');
+        Schema::drop('car_models');
     }
 }

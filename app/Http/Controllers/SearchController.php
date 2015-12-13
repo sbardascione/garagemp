@@ -7,6 +7,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Form;
 use App;
+use Illuminate\Support\Facades\Input;
 
 class SearchController extends Controller
 {
@@ -35,7 +36,8 @@ class SearchController extends Controller
 
         if(isset($category[0]) && !empty($category[0]) && $category[0]!=0)
         {
-            $brandsSelected = App\brand::where('category_id',$category[0])->lists('name','id');
+            $brandsSelected = [''=>''] + App\brand::where('category_id',$category[0])
+            ->lists('name','id')->all();
             $brands = Form::select('brand',$brandsSelected,
                 null,
                 ['class' => 'form-control']);
@@ -51,6 +53,31 @@ class SearchController extends Controller
         
 
         return view('search',compact(array('data',$data)));
+    }
+
+    public function getBrandsSelect()
+    {
+
+    }
+
+    public function getModelsSelect(Request $request)
+    {
+
+        $brand_id = Input::get('brand_id');
+        $modelsSelected = ['0'=>'Seleziona il modello'] + App\car_model::where('brand_id',$brand_id)
+            ->lists('name','id')->all();
+
+        return json_encode($modelsSelected);
+
+    }
+
+    public function getEnginesSelect(Request $request)
+    {
+        $model_id = Input::get('model_id');
+        $enginesSelected = ['0'=>'Seleziona il motore'] + App\engine::where('model_id',$model_id)
+                ->lists('name','id')->all();
+
+        return json_encode($enginesSelected);
     }
 
     /**
@@ -119,30 +146,4 @@ class SearchController extends Controller
         //
     }
 
-    /**
-     * Get the Search view with category selected.
-     *
-     * @param  string  $name
-     * @return \Illuminate\Http\Response
-     */
-    /*public function getInitializedSearch($name)
-    {
-        $categories = App\category::all();
-        $category = App\category::where('name', $name)->first();
-               
-        $data = array();
-
-        $categories_options = "";
-        foreach($categories as $category)
-        {
-             $categories_options.="<option value=".$category->id.">".$category->name."</option>";
-        }
-
-        $data['categories'] = $categories_options;
-        $data['selected_category'] = $category;
-
-
-
-        return view('search',compact(array('data',$data)));
-    }*/
 }

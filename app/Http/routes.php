@@ -28,6 +28,12 @@ Route::get('/search', function () {
     return view('search',compact(array('data',$data)));
 });
 
+
+
+Route::get('/search/getBrands','SearchController@getBrandsSelect');
+
 Route::get('/search/{name}', 'SearchController@index');
 
+Route::get( 'search/{name}/getModelsSelect','SearchController@getModelsSelect');
 
+Route::get( 'search/{name}/getEnginesSelect','SearchController@getEnginesSelect');

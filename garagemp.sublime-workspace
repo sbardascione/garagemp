@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Se",
+				"SearchController"
+			],
+			[
 				"array_un",
 				"array_unshift"
 			],
@@ -47,7 +51,7 @@
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 781,
+				"buffer_size": 1085,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +59,7 @@
 			"file": "app/Http/Controllers/SearchController.php",
 			"settings":
 			{
-				"buffer_size": 3157,
+				"buffer_size": 3213,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +67,7 @@
 			"file": "garagemp.sublime-project",
 			"settings":
 			{
-				"buffer_size": 143,
+				"buffer_size": 213,
 				"line_ending": "Unix"
 			}
 		},
@@ -72,6 +76,22 @@
 			"settings":
 			{
 				"buffer_size": 1818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layout/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 2795,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/garagemp.js",
+			"settings":
+			{
+				"buffer_size": 356,
 				"line_ending": "Unix"
 			}
 		}
@@ -116,10 +136,20 @@
 	},
 	"expanded_folders":
 	[
-		"/home/carmelo/Sites/garagemp"
+		"/home/carmelo/Sites/garagemp",
+		"/home/carmelo/Sites/garagemp/public",
+		"/home/carmelo/Sites/garagemp/public/css",
+		"/home/carmelo/Sites/garagemp/public/js",
+		"/home/carmelo/Sites/garagemp/resources",
+		"/home/carmelo/Sites/garagemp/resources/views",
+		"/home/carmelo/Sites/garagemp/resources/views/layout",
+		"/home/carmelo/Sites/garagemp/storage",
+		"/home/carmelo/Sites/garagemp/storage/framework",
+		"/home/carmelo/Sites/garagemp/storage/framework/views"
 	],
 	"file_history":
 	[
+		"/home/carmelo/Sites/garagemp/storage/framework/views/9cc97d35fc58a2cb505feb74bafbed17",
 		"/home/carmelo/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
 		"/home/carmelo/Sites/garagemp/vendor/laravelcollective/html/src/FormBuilder.php",
 		"/home/carmelo/Sites/garagemp/vendor/laravelcollective/html/src/HtmlServiceProvider.php",
@@ -216,7 +246,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -225,15 +255,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 781,
+						"buffer_size": 1085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								661,
-								661
+								1082,
+								1082
 							]
 						],
 						"settings":
@@ -241,10 +271,10 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 277.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -253,15 +283,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3157,
+						"buffer_size": 3213,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1089,
-								1089
+								1552,
+								1552
 							]
 						],
 						"settings":
@@ -271,10 +301,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 357.0,
+						"translation.y": 872.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -283,15 +313,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 143,
+						"buffer_size": 213,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								143,
-								143
+								193,
+								193
 							]
 						],
 						"settings":
@@ -302,7 +332,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -318,8 +348,8 @@
 						"selection":
 						[
 							[
-								868,
-								868
+								604,
+								604
 							]
 						],
 						"settings":
@@ -328,13 +358,81 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 129.0,
+						"translation.x": 0.0,
 						"translation.y": 68.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/layout/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1261,
+								1261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/js/garagemp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -353,23 +451,41 @@
 			[
 				0,
 				0,
-				1,
+				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.913846153846,
 			1.0
 		]
 	},
 	"menu_visible": true,
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
 	{
 		"height": 0.0
 	},
@@ -410,12 +526,61 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"16":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"17":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 3
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 212.0,
+	"side_bar_width": 260.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
