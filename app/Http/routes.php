@@ -37,3 +37,7 @@ Route::get('/search/{name}', 'SearchController@index');
 Route::get( 'search/{name}/getModelsSelect','SearchController@getModelsSelect');
 
 Route::get( 'search/{name}/getEnginesSelect','SearchController@getEnginesSelect');
+
+Route::get( 'search/{name}/getDataSheetsSelect','SearchController@getDataSheetsSelect');
+
+Route::get('search/{name}/getPdf','SearchController@getPdf');

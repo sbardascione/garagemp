@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+/* use Illuminate\Auth\Access\Response;*/
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Form;
 use App;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 
 class SearchController extends Controller
@@ -80,16 +83,29 @@ class SearchController extends Controller
         return json_encode($enginesSelected);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function getDataSheetsSelect(Request $request)
     {
-        //
+        $engine_id = Input::get('engine_id');
+        $results =DB::table('data_sheets')
+            ->join('pdf_contents','data_sheet_id','=','data_sheets.id')
+            ->select('data_sheets.kW','data_sheets.CV','data_sheets.Nm','pdf_contents.description','pdf_contents.id')
+            ->where('engine_id',(int)$engine_id)
+            ->get();
+
+        return view('results')->with('data',$results);
     }
 
+    public function getPdf(Request $request)
+    {
+        $pdf_id = Input::get('pdf_id');
+        $result = DB::table('pdf_contents')
+            ->select('pdf')
+            ->where('id',(int)$pdf_id)->first();
+        $base_64_pdf = $result->pdf;
+        $pdf = base64_decode($base_64_pdf);
+
+        return (new Response($pdf,200))->header('Content-Type','application/pdf');
+    }
     /**
      * Store a newly created resource in storage.
      *

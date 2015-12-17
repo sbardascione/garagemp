@@ -51,12 +51,16 @@
             <!-- Add Task Button --> 
             <div class="form-group">
                 <div class="col-sm-offset-3 col-sm-6">
-                    <button type="submit" class="btn btn-default">
+                    <button type="button" class="btn btn-default" id="search">
                         <i class="fa fa-search"></i> Cerca schede
                     </button>
                 </div>
             </div>
         </form>
+
+        <div id = "result" style="display:none" class="col-lg-offset-3 col-lg-7">
+
+        </div>
         
         
     </div>
